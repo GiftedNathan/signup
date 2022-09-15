@@ -40,7 +40,7 @@ body{
         color: rgba(0, 0, 0, 0.61);
     }
 
-    input{
+    input, button{
         width: 90%;
         height: 40px;
         margin: 10px;
@@ -53,14 +53,18 @@ body{
         font-weight: 400;
         text-transform: capitalize;
     }
-    
-    input[type=submit]{
+   
+    #signup{
+        color: white;
+        background-color: rgb(76, 87, 236);
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+
+    button{
         text-transform: capitalize;    
         color: white;
         cursor: pointer;    
-    }
-    #signup{
-        background-color: rgb(76, 87, 236);
     }
     .divider{
         width: 90%;
@@ -79,6 +83,8 @@ body{
             border-radius: 50%;
         }
     }
+
+    
 
     #with-google{
         background-color: transparent;

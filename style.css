@@ -56,7 +56,7 @@ body {
   color: rgba(0, 0, 0, 0.61);
 }
 
-.form input {
+.form input, .form button {
   width: 90%;
   height: 40px;
   margin: 10px;
@@ -70,14 +70,17 @@ body {
   text-transform: capitalize;
 }
 
-.form input[type=submit] {
-  text-transform: capitalize;
+.form #signup {
   color: white;
+  background-color: #4c57ec;
+  text-transform: capitalize;
   cursor: pointer;
 }
 
-.form #signup {
-  background-color: #4c57ec;
+.form button {
+  text-transform: capitalize;
+  color: white;
+  cursor: pointer;
 }
 
 .form .divider {
